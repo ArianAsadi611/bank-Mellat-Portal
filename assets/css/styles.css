@@ -1,0 +1,33 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@font-face {
+  font-family: "IranSans";
+  src: url("../fonts/IranSans/IRANSansWeb/IRANSansWeb.ttf") format("ttf");
+  src: url("../fonts/IranSans/IRANSansWeb/IRANSansWeb.eot") format("eot");
+  src: url("../fonts/IranSans/IRANSansWeb/IRANSansWeb.woff") format("woff");
+  src: url("../fonts/IranSans/IRANSansWeb/IRANSansWeb.woff2") format("woff2");
+}
+
+* {
+  font-family: "IranSans";
+}
+
+h1 {
+  color: yellow;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
